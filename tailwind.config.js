@@ -2,10 +2,23 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    backgroundImage: {
+      gradient:
+        "linear-gradient(to bottom right, hsl(136, 64%, 51%), hsl(192, 69%, 51%))",
+    },
+
     screens: {
       desktop: "821px",
     },
-    colors: {},
+    colors: {
+      grayishBlue: "hsl(231, 8%, 61%)",
+      gradient:
+        "linear-gradient(to bottom right, hsl(136, 64%, 51%) 50%, hsl(192, 69%, 51%) 50%)",
+      pureWhite: "hsl(0, 0%, 100%)",
+      darkBlue: "hsl(231, 26%, 24%)",
+      backGr: "hsl(0, 0%, 98%)",
+      backGrmiddle: " hsla(223, 18%, 96%, 1)",
+    },
     fontSize: {
       menu: [
         "14px",
@@ -45,6 +58,13 @@ module.exports = {
           lineHeight: "28px",
           fontWeight: "300",
           letterSpacing: "-0.43px",
+        },
+      ],
+      button: [
+        "14px",
+        {
+          fontWeight: "700",
+          lineHeight: "28px",
         },
       ],
     },
