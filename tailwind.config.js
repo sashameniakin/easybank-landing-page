@@ -67,6 +67,14 @@ module.exports = {
           lineHeight: "28px",
         },
       ],
+      icons: [
+        "16px",
+        {
+          fontWeight: "400",
+          lineHeight: "26px",
+          letterSpacing: "-0.25px",
+        },
+      ],
     },
     extend: {},
   },
