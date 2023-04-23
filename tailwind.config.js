@@ -75,6 +75,30 @@ module.exports = {
           letterSpacing: "-0.25px",
         },
       ],
+      author: [
+        "10px",
+        {
+          fontWeight: "400",
+          lineHeight: "18px",
+          letterSpacing: "-0.16px",
+        },
+      ],
+      article: [
+        "13px",
+        {
+          fontWeight: "400",
+          lineHeight: "18px",
+          letterSpacing: "-0.2px",
+        },
+      ],
+      articleTitle: [
+        "16px",
+        {
+          fontWeight: "300",
+          lineHeight: "20px",
+          letterSpacing: "-0.29px",
+        },
+      ],
     },
     extend: {},
   },
