@@ -70,7 +70,9 @@ export default function MainPart() {
       <section className="px-[165px]">
         <p className="text-h2 text-darkBlue pt-20 pb-10">Latest Articles</p>
         <div className="flex gap-[30px]">
-          <article></article>
+          <article>
+            <div className="flex flex-col"></div>
+          </article>
           <article></article>
           <article></article>
           <article></article>
