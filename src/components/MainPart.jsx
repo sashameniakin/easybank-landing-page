@@ -70,7 +70,23 @@ export default function MainPart() {
       <section className="px-[165px]">
         <p className="text-h2 text-darkBlue pt-20 pb-10">Latest Articles</p>
         <div className="flex gap-[30px]">
-          <article></article>
+          <article>
+            <div className="flex flex-col">
+              <img
+                src="./images/articles/image-currency.jpg"
+                alt="currency"
+                width="255px"
+              />
+              <p className="text-grayishBlue text-author">By Claire Robinson</p>
+              <p className="text-articleTitle text-darkBlue">
+                Receive money in any currency with no fees
+              </p>
+              <p className="text-grayishBlue text-article">
+                The world is getting smaller and we’re becoming more mobile. So
+                why should you be forced to only receive money in a single …
+              </p>
+            </div>
+          </article>
           <article></article>
           <article></article>
           <article></article>
