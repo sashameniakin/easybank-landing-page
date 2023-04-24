@@ -18,6 +18,7 @@ module.exports = {
       darkBlue: "hsl(231, 26%, 24%)",
       backGr: "hsl(0, 0%, 98%)",
       backGrmiddle: " hsla(223, 18%, 96%, 1)",
+      green: "hsla(158, 61%, 49%, 1)",
     },
     fontSize: {
       menu: [
