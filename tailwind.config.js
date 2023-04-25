@@ -100,6 +100,14 @@ module.exports = {
           letterSpacing: "-0.29px",
         },
       ],
+      footer: [
+        "15px",
+        {
+          fontWeight: "400",
+          lineHeight: "26px",
+          letterSpacing: "-0.23px",
+        },
+      ],
     },
     extend: {},
   },
