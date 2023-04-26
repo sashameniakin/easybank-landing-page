@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col desktop:flex-row desktop:gap-[140px]">
           <div className="flex flex-col justify-between">
             <img src="./images/logo_white.svg" alt="logo" />
-            <div className="flex gap-[13.33px]">
+            <div className="flex gap-[13.33px] my-8 desktop:my-0">
               <img
                 src="./images/footer/icon-facebook.svg"
                 alt="facebook"
@@ -70,20 +70,20 @@ export default function Footer() {
               />
             </div>
           </div>
-          <div className="flex flex-col justify-start text-pureWhite text-footer gap-2">
+          <div className="flex flex-col items-center desktop:items-start text-pureWhite text-footer mb-2 desktop:mb-0 gap-2">
             <p className="hover:text-green cursor-pointer">About us</p>
             <p className="hover:text-green cursor-pointer">Contact</p>
             <p className="hover:text-green cursor-pointer">Blog</p>
           </div>
-          <div className="flex flex-col text-pureWhite text-footer gap-2">
+          <div className="flex flex-col items-center desktop:items-start text-pureWhite text-footer gap-2 mb-8 desktop:mb-0">
             <p className="hover:text-green cursor-pointer">Careers</p>
             <p className="hover:text-green cursor-pointer">Support</p>
             <p className="hover:text-green cursor-pointer">Privacy Policy</p>
           </div>
         </div>
-        <div className="flex flex-col justify-between items-center desktop:items-end">
+        <div className="flex flex-col items-center desktop:items-end">
           <Button />
-          <p className="text-pureWhite opacity-50 text-footer">
+          <p className="text-pureWhite opacity-50 text-footer pt-6">
             © Easybank. All Rights Reserved
           </p>
         </div>
