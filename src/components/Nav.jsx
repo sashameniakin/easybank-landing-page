@@ -1,11 +1,14 @@
 import Button from "./UI/Button";
+import { useState } from "react";
 
 export default function Nav() {
+  const [menu, setMenu] = useState(false);
+
   return (
     <>
-      <header className="flex justify-between items-center px-[165px] h-[80px] bg-pureWhite z-50">
+      <header className="flex justify-between items-center px-6 desktop:px-[165px] h-[80px] bg-pureWhite z-50">
         <img src="./images/logo.svg" alt="logo" />
-        <div className="flex gap-[30px] text-menu text-grayishBlue">
+        <div className="hidden desktop:flex gap-[30px] text-menu text-grayishBlue">
           <p className="hover:underline decoration-green decoration-4 underline-offset-[28px] hover:text-darkBlue hover:cursor-pointer">
             Home
           </p>
@@ -22,7 +25,10 @@ export default function Nav() {
             Careers
           </p>
         </div>
-        <Button />
+        <Button mobile="hidden" desktop="flex" />
+        <button className="flex desktop:hidden" onClick={() => setMenu(true)}>
+          <img src="./images/icons/icon-hamburger.svg" alt="menu" />
+        </button>
       </header>
     </>
   );

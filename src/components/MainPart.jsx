@@ -5,7 +5,7 @@ export default function MainPart() {
   return (
     <>
       <section className="relative overflow-hidden bg-backGrmiddle">
-        <section className="relative flex bg-backGr pl-[165px] overflow-hidden">
+        <section className="relative flex flex-col-reverse desktop:flex-row bg-backGr pl-[165px] overflow-hidden">
           <div className="flex flex-col items-left w-1/3 py-[170px]">
             <p className="text-h1 mb-6 text-darkBlue">
               Next generation digital banking
@@ -19,13 +19,13 @@ export default function MainPart() {
           </div>
 
           <img
-            className="absolute top-[-255px] right-[-410px] z-30"
+            className="absolute top-[-255px] right-[0px] desktop:right-[-410px] z-30"
             src="./images/bg-intro-desktop.svg"
             alt="intro"
           />
         </section>
         <img
-          className="absolute top-[-100px] right-[-110px] z-30 w-[50%]"
+          className="absolute top-[-100px] right-[0px] desktop:right-[-110px] z-30 w-[50%]"
           src="./images/image-mockups.png"
           alt="mockups"
         />
@@ -36,7 +36,7 @@ export default function MainPart() {
             financial hub. Control your finances like never before.
           </p>
         </div>
-        <div className="flex px-[165px] gap-[30px] pb-[94px]">
+        <div className="flex flex-col desktop:flex-row px-6 desktop:px-[165px] gap-[30px] pb-[94px]">
           <Feature
             path="./images/icons/icon-online.svg"
             alt="online"
