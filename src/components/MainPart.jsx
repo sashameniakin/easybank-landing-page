@@ -5,8 +5,8 @@ export default function MainPart() {
   return (
     <>
       <section className="relative overflow-hidden bg-backGrmiddle">
-        <section className="relative flex flex-col-reverse desktop:flex-row bg-backGr pl-[165px] overflow-hidden">
-          <div className="flex flex-col items-left w-1/3 py-[170px]">
+        <section className="relative flex flex-col-reverse desktop:flex-row bg-backGr px-6 desktop:pl-[165px] overflow-hidden">
+          <div className="flex flex-col items-center text-center desktop:text-left desktop:items-start w-full desktop:w-1/3 pb-[88px] desktop:py-[170px]">
             <p className="text-h1 mb-6 text-darkBlue">
               Next generation digital banking
             </p>
@@ -18,20 +18,34 @@ export default function MainPart() {
             <Button />
           </div>
 
-          <img
+          <picture className="desktop:absolute desktop:top-[-255px] desktop:right-[-410px]">
+            <source
+              media="(min-width:821px)"
+              srcSet="./images/bg-intro-desktop.svg"
+            />
+
+            <img
+              src="./images/bg-intro-mobile.svg"
+              alt="intro"
+              className="w-full"
+            />
+          </picture>
+          {/*   <img
             className="absolute top-[-255px] right-[0px] desktop:right-[-410px] z-30"
             src="./images/bg-intro-desktop.svg"
             alt="intro"
-          />
+          /> */}
         </section>
         <img
-          className="absolute top-[-100px] right-[0px] desktop:right-[-110px] z-30 w-[50%]"
+          className="absolute top-[-100px] right-[0px] desktop:right-[-110px] z-30 w-full desktop:w-[50%]"
           src="./images/image-mockups.png"
           alt="mockups"
         />
-        <div className="flex flex-col px-[165px] pt-[96px] w-2/3 pb-[72px]">
-          <p className="text-h2 text-darkBlue">Why choose Easybank?</p>
-          <p className="text-text text-grayishBlue">
+        <div className="flex flex-col px-6 desktop:px-[165px] pt-[96px] w-full desktop:w-2/3 pb-[72px]">
+          <p className="text-h2 text-darkBlue mb-4 text-center desktop:text-left">
+            Why choose Easybank?
+          </p>
+          <p className="text-text text-grayishBlue text-center desktop:text-left">
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
           </p>

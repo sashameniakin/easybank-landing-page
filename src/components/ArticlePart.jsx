@@ -3,7 +3,9 @@ import Article from "./Article";
 export default function ArticlePart() {
   return (
     <section className="px-6 desktop:px-[165px] bg-backGr pb-20">
-      <p className="text-h2 text-darkBlue pt-20 pb-10">Latest Articles</p>
+      <p className="text-h2 text-darkBlue pt-20 pb-10 text-center desktop:text-left">
+        Latest Articles
+      </p>
       <div className="flex flex-col desktop:flex-row gap-[30px]">
         <Article
           path="./images/articles/image-currency.jpg"
