@@ -2,9 +2,9 @@ import Article from "./Article";
 
 export default function ArticlePart() {
   return (
-    <section className="px-[165px] bg-backGr pb-20">
+    <section className="px-6 desktop:px-[165px] bg-backGr pb-20">
       <p className="text-h2 text-darkBlue pt-20 pb-10">Latest Articles</p>
-      <div className="flex gap-[30px]">
+      <div className="flex flex-col desktop:flex-row gap-[30px]">
         <Article
           path="./images/articles/image-currency.jpg"
           alt="currency"

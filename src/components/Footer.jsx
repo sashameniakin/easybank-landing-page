@@ -3,8 +3,8 @@ import Button from "./UI/Button";
 export default function Footer() {
   return (
     <footer className="bg-darkBlue">
-      <section className="flex px-[165px] py-12 justify-between items-stretch">
-        <div className="flex gap-[140px]">
+      <section className="flex flex-col desktop:flex-row px-[78px] desktop:px-[165px] py-12 justify-center desktop:justify-between items-center">
+        <div className="flex flex-col desktop:flex-row desktop:gap-[140px]">
           <div className="flex flex-col justify-between">
             <img src="./images/logo_white.svg" alt="logo" />
             <div className="flex gap-[13.33px]">
@@ -81,7 +81,7 @@ export default function Footer() {
             <p className="hover:text-green cursor-pointer">Privacy Policy</p>
           </div>
         </div>
-        <div className="flex flex-col justify-between items-end">
+        <div className="flex flex-col justify-between items-center desktop:items-end">
           <Button />
           <p className="text-pureWhite opacity-50 text-footer">
             © Easybank. All Rights Reserved
