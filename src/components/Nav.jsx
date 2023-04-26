@@ -6,13 +6,21 @@ export default function Nav() {
       <header className="flex justify-between items-center px-[165px] h-[80px] bg-pureWhite z-50">
         <img src="./images/logo.svg" alt="logo" />
         <div className="flex gap-[30px] text-menu text-grayishBlue">
-          <p className="hover:underline underline-offset-[10px] hover:text-darkBlue">
+          <p className="hover:underline decoration-green decoration-4 underline-offset-[28px] hover:text-darkBlue hover:cursor-pointer">
             Home
           </p>
-          <p className="hover:text-darkBlue">About</p>
-          <p className="hover:text-darkBlue">Contact</p>
-          <p className="hover:text-darkBlue">Blog</p>
-          <p className="hover:text-darkBlue">Careers</p>
+          <p className="hover:underline decoration-green decoration-4 underline-offset-[28px] hover:text-darkBlue hover:cursor-pointer">
+            About
+          </p>
+          <p className="hover:underline decoration-green decoration-4 underline-offset-[28px] hover:text-darkBlue hover:cursor-pointer">
+            Contact
+          </p>
+          <p className="hover:underline decoration-green decoration-4 underline-offset-[28px] hover:text-darkBlue hover:cursor-pointer">
+            Blog
+          </p>
+          <p className="hover:underline decoration-green decoration-4 underline-offset-[31px] hover:text-darkBlue hover:cursor-pointer">
+            Careers
+          </p>
         </div>
         <Button />
       </header>
