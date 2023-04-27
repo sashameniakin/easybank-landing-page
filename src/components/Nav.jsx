@@ -1,5 +1,6 @@
 import Button from "./UI/Button";
 import { useState } from "react";
+import Menu from "./UI/Menu";
 
 export default function Nav() {
   const [menu, setMenu] = useState(false);
@@ -39,6 +40,15 @@ export default function Nav() {
           </button>
         )}
       </header>
+      {menu && (
+        <Menu>
+          <p>Home</p>
+          <p>About</p>
+          <p>Contact</p>
+          <p>Blog</p>
+          <p>Careers</p>
+        </Menu>
+      )}
     </>
   );
 }

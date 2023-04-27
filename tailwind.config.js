@@ -5,6 +5,8 @@ module.exports = {
     backgroundImage: {
       gradient:
         "linear-gradient(to bottom right, hsl(136, 64%, 51%), hsl(192, 69%, 51%))",
+      modalGradient:
+        "linear-gradient(to bottom, hsl(231, 26%, 24%, 1), hsl(231, 26%, 24%, 0))",
     },
 
     screens: {
@@ -12,8 +14,6 @@ module.exports = {
     },
     colors: {
       grayishBlue: "hsl(231, 8%, 61%)",
-      gradient:
-        "linear-gradient(to bottom right, hsl(136, 64%, 51%) 50%, hsl(192, 69%, 51%) 50%)",
       pureWhite: "hsl(0, 0%, 100%)",
       darkBlue: "hsl(231, 26%, 24%)",
       backGr: "hsl(0, 0%, 98%)",
@@ -138,6 +138,14 @@ module.exports = {
           fontWeight: "300",
           lineHeight: "28px",
           letterSpacing: "-0.36px",
+        },
+      ],
+      menuText: [
+        "18px",
+        {
+          fontWeight: "400",
+          lineHeight: "21.15px",
+          letterSpacing: "-0.14px",
         },
       ],
     },

@@ -30,11 +30,13 @@ export default function MainPart() {
             />
           </picture>
         </section>
+
         <img
-          className="absolute top-[-100px] right-[0px] desktop:right-[-110px] z-30 w-full desktop:w-[50%]"
+          className="absolute top-[-100px] right-[0px] desktop:right-[-110px] w-full desktop:w-[50%]"
           src="./images/image-mockups.png"
           alt="mockups"
         />
+
         <div className="flex flex-col px-6 desktop:px-[165px] pt-[64px] desktop:pt-[96px] w-full desktop:w-2/3 pb-[56px] desktop:pb-[72px]">
           <p className="text-H1Mobile desktop:text-h2 text-darkBlue mb-4 text-center desktop:text-left">
             Why choose Easybank?
