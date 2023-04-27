@@ -108,6 +108,38 @@ module.exports = {
           letterSpacing: "-0.23px",
         },
       ],
+      H2Mobile: [
+        "40px",
+        {
+          fontWeight: "300",
+          lineHeight: "47px",
+          letterSpacing: "-0.71px",
+        },
+      ],
+      mainMobile: [
+        "15px",
+        {
+          fontWeight: "400",
+          lineHeight: "25px",
+          letterSpacing: "-0.23px",
+        },
+      ],
+      H1Mobile: [
+        "32px",
+        {
+          fontWeight: "300",
+          lineHeight: "37.6px",
+          letterSpacing: "-0.57px",
+        },
+      ],
+      H3Mobile: [
+        "20px",
+        {
+          fontWeight: "300",
+          lineHeight: "28px",
+          letterSpacing: "-0.36px",
+        },
+      ],
     },
     extend: {},
   },

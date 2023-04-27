@@ -26,9 +26,18 @@ export default function Nav() {
           </p>
         </div>
         <Button mobile="hidden" desktop="flex" />
-        <button className="flex desktop:hidden" onClick={() => setMenu(true)}>
-          <img src="./images/icons/icon-hamburger.svg" alt="menu" />
-        </button>
+        {menu ? (
+          <button
+            className="flex desktop:hidden"
+            onClick={() => setMenu(false)}
+          >
+            <img src="./images/icons/icon-close.svg" alt="close" />
+          </button>
+        ) : (
+          <button className="flex desktop:hidden" onClick={() => setMenu(true)}>
+            <img src="./images/icons/icon-hamburger.svg" alt="menu" />
+          </button>
+        )}
       </header>
     </>
   );
