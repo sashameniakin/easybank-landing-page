@@ -32,7 +32,7 @@ export default function MainPart() {
         </section>
 
         <img
-          className="absolute top-[-100px] right-[0px] desktop:right-[-110px] w-full desktop:w-[50%]"
+          className="absolute top-[-100px] right-[0px] desktop:right-[-125px] w-full desktop:w-[50%]"
           src="./images/image-mockups.png"
           alt="mockups"
         />
