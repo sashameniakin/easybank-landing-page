@@ -1,5 +1,6 @@
 import Button from "./UI/Button";
 import { useState } from "react";
+import Menu from "./UI/Menu";
 
 export default function Nav() {
   const [menu, setMenu] = useState(false);
@@ -26,10 +27,28 @@ export default function Nav() {
           </p>
         </div>
         <Button mobile="hidden" desktop="flex" />
-        <button className="flex desktop:hidden" onClick={() => setMenu(true)}>
-          <img src="./images/icons/icon-hamburger.svg" alt="menu" />
-        </button>
+        {menu ? (
+          <button
+            className="flex desktop:hidden"
+            onClick={() => setMenu(false)}
+          >
+            <img src="./images/icons/icon-close.svg" alt="close" />
+          </button>
+        ) : (
+          <button className="flex desktop:hidden" onClick={() => setMenu(true)}>
+            <img src="./images/icons/icon-hamburger.svg" alt="menu" />
+          </button>
+        )}
       </header>
+      {menu && (
+        <Menu>
+          <p>Home</p>
+          <p>About</p>
+          <p>Contact</p>
+          <p>Blog</p>
+          <p>Careers</p>
+        </Menu>
+      )}
     </>
   );
 }

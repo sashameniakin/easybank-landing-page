@@ -3,7 +3,7 @@ import Button from "./UI/Button";
 export default function Footer() {
   return (
     <footer className="bg-darkBlue">
-      <section className="flex flex-col desktop:flex-row px-[78px] desktop:px-[165px] py-12 justify-center desktop:justify-between items-center">
+      <section className="flex flex-col desktop:flex-row px-[77px] desktop:px-[165px] py-10 desktop:py-12 justify-center desktop:justify-between items-center">
         <div className="flex flex-col desktop:flex-row desktop:gap-[140px]">
           <div className="flex flex-col justify-between">
             <img src="./images/logo_white.svg" alt="logo" />
