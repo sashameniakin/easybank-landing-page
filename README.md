@@ -1,6 +1,7 @@
 # EasyBank Landing Page
 
 I have built the EasyBank landing page. The website is responsive, you can use it on your phone, or normal desktop.
+Here is the link: easybank-landing-page-ten-psi.vercel.app
 
 ## TechStack
 
